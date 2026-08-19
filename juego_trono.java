@@ -15,6 +15,7 @@ public class juego_trono {
     public static void main(String[] args) {
         // Instanciación dentro del método main
         Rey soberano = new Rey("Joa Vasquez wachin");
+        Rey soberano = new Rey("gome");
         System.out.println("En el trono está: " + soberano.getNombre());
     }
 }
